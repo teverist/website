@@ -9,11 +9,17 @@
 	<div class="col-2 homepage_content">
 		<h2>Stuff I've Written</h2>
 		<hr>
+		<% @posts.each do |post| %>
+			<h3><%= link_to post.title, post %></h3>
+			<p class="date"><%= post.created_at.strftime("%A, %b %d") %></p>
+			
+		<% end %>
 
 	</div>
 	<div class="col-3 homepage_content">
 		<h2>Stuff I've Built</h2>
 		<hr>
+
 
 	</div>
 </div>

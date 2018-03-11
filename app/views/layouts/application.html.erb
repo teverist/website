@@ -11,7 +11,7 @@
 
   <body>
     <header id="main_navigation" class="clearfix">
-		  <a href="/" class="name">Toby Everist</a>
+		  <%= link_to "Toby Everist", root_path, class: "name" %>
 		  <nav>
 		    <%= link_to "Articles", posts_path %>
   			<a href="#">Projects</a>
@@ -20,5 +20,14 @@
 	</header>
 
     <%= yield %>
+    
+    <footer id="main_footer">
+  		<p class="copyright">&copy;2018 Toby Everist</p>
+  		<nav>
+  			<a href="mailto:tobyeverist1@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+  			<a href="http://github.com/teverist" target="_blank"><i class="fa fa-github"></i></a>
+  		</nav>
+	</footer>
+
   </body>
 </html>
