@@ -92,6 +92,8 @@ GEM
     pg (1.0.0)
     public_suffix (3.0.2)
     puma (3.11.3)
+    pygments.rb (1.2.1)
+      multi_json (>= 1.0.0)
     rack (2.0.4)
     rack-test (0.8.3)
       rack (>= 1.0, < 3)
@@ -122,6 +124,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
+    redcarpet (3.4.0)
     ruby_dep (1.5.0)
     rubyzip (1.2.1)
     sass (3.5.5)
@@ -183,7 +186,9 @@ DEPENDENCIES
   listen (>= 3.0.5, < 3.2)
   pg (= 1.0.0)
   puma (~> 3.7)
+  pygments.rb (~> 1.2, >= 1.2.1)
   rails (~> 5.1.5)
+  redcarpet (~> 3.4)
   sass-rails (~> 5.0)
   selenium-webdriver
   spring
