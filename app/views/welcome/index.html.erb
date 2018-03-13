@@ -19,6 +19,11 @@
 	<div class="col-3 homepage_content">
 		<h2>Stuff I've Built</h2>
 		<hr>
+		<% @projects.each do |project| %>
+			<h3><%= link_to project.title, project %></h3>
+			<p class="date"><%= project.created_at.strftime("%A, %b %d") %></p>
+			
+		<% end %>
 
 
 	</div>
