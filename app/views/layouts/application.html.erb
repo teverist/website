@@ -15,9 +15,15 @@
 		  <nav>
 		    <%= link_to "Articles", posts_path %>
 		    <%= link_to "Projects", projects_path %>
-  			<a href ="#">Contact</a>
+  			<%= link_to "Contact Me", new_contact_path %>
 		</nav>
 	</header>
+	
+	<% if notice %>
+	  <p class="notice"><%= notice %></p>
+	<% elsif alert %>
+	  <p class="alert"><%= alert %></p>#
+	<% end %>
 
     <%= yield %>
     
