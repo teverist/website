@@ -13,7 +13,8 @@
  *= require_tree .
  *= require_self
  */
-@import 'normalize';        
+@import 'normalize';
+
 
 $dark: #424652;
 $white: #FFFFFF;
@@ -63,6 +64,8 @@ body {
   padding: 1em 0;
   border-bottom: 1px solid #E9E9E9;
 }
+
+
 
 h1, h2, h3, h4, h5, h6, p, ul, li {
 	color: $dark;
