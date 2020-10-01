@@ -1,3 +1,3 @@
 # README
 
-My personal website and blog using Ruby on Rails.
+My first ever personal website and blog using Ruby on Rails.
